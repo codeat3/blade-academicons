@@ -1,17 +1,17 @@
 <p align="center">
-    <img src="./socialcard-blade-acamedicons.png" width="1280" title="Social Card Blade Acamedicons">
+    <img src="./socialcard-blade-academicons.png" width="1280" title="Social Card Blade Acamedicons">
 </p>
 
 # Blade Acamedicons
 
-<a href="https://github.com/codeat3/blade-acamedicons/actions?query=workflow%3ATests">
-    <img src="https://github.com/codeat3/blade-acamedicons/workflows/Tests/badge.svg" alt="Tests">
+<a href="https://github.com/codeat3/blade-academicons/actions?query=workflow%3ATests">
+    <img src="https://github.com/codeat3/blade-academicons/workflows/Tests/badge.svg" alt="Tests">
 </a>
-<a href="https://packagist.org/packages/codeat3/blade-acamedicons">
-    <img src="https://img.shields.io/packagist/v/codeat3/blade-acamedicons" alt="Latest Stable Version">
+<a href="https://packagist.org/packages/codeat3/blade-academicons">
+    <img src="https://img.shields.io/packagist/v/codeat3/blade-academicons" alt="Latest Stable Version">
 </a>
-<a href="https://packagist.org/packages/codeat3/blade-acamedicons">
-    <img src="https://img.shields.io/packagist/dt/codeat3/blade-acamedicons" alt="Total Downloads">
+<a href="https://packagist.org/packages/codeat3/blade-academicons">
+    <img src="https://img.shields.io/packagist/dt/codeat3/blade-academicons" alt="Total Downloads">
 </a>
 
 A package to easily make use of [Blade Acamedicons](https://github.com/jpswalsh/academicons) in your Laravel Blade views.
@@ -26,7 +26,7 @@ For a full list of available icons see [the SVG directory](resources/svg) or pre
 ## Installation
 
 ```bash
-composer require codeat3/blade-acamedicons
+composer require codeat3/blade-academicons
 ```
 
 ## Updating
@@ -39,10 +39,10 @@ Blade Acamedicons uses Blade Icons under the hood. Please refer to [the Blade Ic
 
 ## Configuration
 
-Blade Acamedicons also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-acamedicons.php` config file:
+Blade Acamedicons also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-academicons.php` config file:
 
 ```bash
-php artisan vendor:publish --tag=blade-acamedicons-config
+php artisan vendor:publish --tag=blade-academicons-config
 ```
 
 ## Usage
@@ -50,19 +50,19 @@ php artisan vendor:publish --tag=blade-acamedicons-config
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-acamedicon-zotero/>
+<x-academicon-zotero/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-acamedicon-zotero class="w-6 h-6 text-gray-500"/>
+<x-academicon-zotero class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-acamedicon-zotero style="color: #555"/>
+<x-academicon-zotero style="color: #555"/>
 ```
 
 ### Raw SVG Icons
@@ -70,13 +70,13 @@ And even use inline styles:
 If you want to use the raw SVG icons as assets, you can publish them using:
 
 ```bash
-php artisan vendor:publish --tag=blade-acamedicons --force
+php artisan vendor:publish --tag=blade-academicons --force
 ```
 
 Then use them in your views like:
 
 ```blade
-<img src="{{ asset('vendor/blade-acamedicons/zotero.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-academicons/zotero.svg') }}" width="10" height="10"/>
 ```
 
 ## Changelog

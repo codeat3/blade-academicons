@@ -1,13 +1,13 @@
 {
-    "name": "codeat3/blade-acamedicons",
+    "name": "codeat3/blade-academicons",
     "description": "A package to easily make use of Acamedicons in your Laravel Blade views.",
     "keywords": [
         "Blade",
-        "acamedicons",
+        "academicons",
         "icons",
         "Laravel"
     ],
-    "homepage": "https://github.com/codeat3/blade-acamedicons",
+    "homepage": "https://github.com/codeat3/blade-academicons",
     "license": "MIT",
     "authors": [
         {
@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Codeat3\\BladeAcamedicons\\": "src"
+            "Codeat3\\BladeAcademicons\\": "src"
         }
     },
     "autoload-dev": {
@@ -43,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Codeat3\\BladeAcamedicons\\BladeAcamediconsServiceProvider"
+                "Codeat3\\BladeAcademicons\\BladeAcademiconsServiceProvider"
             ]
         }
     },
