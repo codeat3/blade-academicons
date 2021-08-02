@@ -12,8 +12,6 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
             $svgEl->removeChild($metadata[0]);
         })
         ->postOptimizationAsString(function ($svgLine){
-            echo $svgLine;
-            // die();
             $replacePattern = [
                 '/\<sodipodi\:namedview.*\<\/sodipodi\:namedview\>/s' => '',
             ];
