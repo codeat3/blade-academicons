@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-academicons/compare/1.2.1...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-academicons/compare/1.3.1...HEAD)
+
+## [1.3.1](https://github.com/codeat3/blade-academicons/compare/1.2.1...1.3.1) - 2022-02-14
+
+## What's Changed
+
+- chore: update icons with the latest commit [f6bf08d](https://github.com/jpswalsh/academicons/commit/f6bf08dcbde54f77912a5c294854379336f819a9)
+
+**Full Changelog**: https://github.com/codeat3/blade-academicons/compare/1.2.1...1.3.1
 
 ## [1.2.1](https://github.com/codeat3/blade-academicons/compare/1.1.1...1.2.1) - 2022-02-03
 
