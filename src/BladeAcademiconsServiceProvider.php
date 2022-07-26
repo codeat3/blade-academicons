@@ -17,24 +17,24 @@ final class BladeAcademiconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-academicons', []);
 
-            $factory->add('academicons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('academicons', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/blade-academicons.php', 'blade-academicons');
+        $this->mergeConfigFrom(__DIR__ . '/../config/blade-academicons.php', 'blade-academicons');
     }
 
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-academicons'),
+                __DIR__ . '/../resources/svg' => public_path('vendor/blade-academicons'),
             ], 'blade-academicons');
 
             $this->publishes([
-                __DIR__.'/../config/blade-academicons.php' => $this->app->configPath('blade-academicons.php'),
+                __DIR__ . '/../config/blade-academicons.php' => $this->app->configPath('blade-academicons.php'),
             ], 'blade-academicons-config');
         }
     }
