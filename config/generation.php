@@ -14,6 +14,7 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
         ->postOptimizationAsString(function ($svgLine){
             $replacePattern = [
                 '/\<sodipodi\:namedview.*\<\/sodipodi\:namedview\>/s' => '',
+                '/color\:\#000000/s' => 'color:currentColor'
             ];
             return preg_replace(array_keys($replacePattern), array_values($replacePattern), $svgLine);
         })
