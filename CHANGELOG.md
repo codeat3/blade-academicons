@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-academicons/compare/1.6.1...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-academicons/compare/1.6.2...HEAD)
+
+## [1.6.2](https://github.com/codeat3/blade-academicons/compare/1.6.1...1.6.2) - 2023-03-10
+
+### What's Changed
+
+- fill attribute fixes - using generation.php by @swapnilsarwe in https://github.com/codeat3/blade-academicons/pull/11
+
+**Full Changelog**: https://github.com/codeat3/blade-academicons/compare/1.6.1...1.6.2
 
 ## [1.6.1](https://github.com/codeat3/blade-academicons/compare/1.5.1...1.6.1) - 2023-02-21
 
