@@ -2,7 +2,12 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-academicons/compare/1.6.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-academicons/compare/2.0.0...HEAD)
+
+## [2.0.0](https://github.com/codeat3/blade-academicons/compare/1.6.2...2.0.0) - 2024-02-27
+
+* Dropped support for php 7.4
+* added support for laravel 11
 
 ## [1.6.2](https://github.com/codeat3/blade-academicons/compare/1.6.1...1.6.2) - 2023-03-10
 
