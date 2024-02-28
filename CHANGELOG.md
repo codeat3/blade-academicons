@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-academicons/compare/2.0.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-academicons/compare/1.7.0...HEAD)
+
+## [1.7.0](https://github.com/codeat3/blade-academicons/compare/2.0.0...1.7.0) - 2024-02-28
+
+### What's Changed
+
+* added laravel 11 support by @swapnilsarwe in https://github.com/codeat3/blade-academicons/pull/13
+
+**Full Changelog**: https://github.com/codeat3/blade-academicons/compare/2.0.0...1.7.0
 
 ## [2.0.0](https://github.com/codeat3/blade-academicons/compare/1.6.2...2.0.0) - 2024-02-27
 
